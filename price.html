@@ -1,0 +1,175 @@
+<!-- 
+	Цель: сверстать адаптивный макет галереи интерьеров
+	+ Делаем шапку. Знакомимся с тегом picture;
+	+ Верстаем карточки;
+	+ Итоги первого урока;
+	+ Домашнее задание первого урока;
+	+ Расширяем знания о медиа. Адаптируем дизайн сайта;
+	- Подводим итоги;
+	- Домашнее задание.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Галерея</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="price.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+</head>
+<body>
+	<nav>
+		<ul class="menu-main">
+			<li><a href="index.html" >Work</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+		    <li><a href="">Price</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+
+ <!--  <table>
+    
+    <thead>
+        <tr>
+            <th class="basic">BASIC</th>
+            <th class="pro">PRO</th>
+            <th class="gold">GOLD</th>
+            <th class="platinum">PLATINUM</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>До 75 м²</td>
+            <td>До 100 м²</td>
+            <td>До 150 м²</td>
+            <td>До 250 м² </td>
+            
+        </tr>
+        <tr class="gray-bg">
+            <td></td>
+            <td>Круглосуточная связь</td>
+            <td>Круглосуточная связь</td>
+            <td>Круглосуточная связь</td>
+        </tr>
+        <tr>
+            <td>Бригада из 3 человек</td>
+            <td>Бригада из 5 человек</td>
+            <td>Бригада из 7 человек</td>
+            <td>Бригада из 10 человек</td>
+        </tr>
+        <tr class="gray-bg">
+            <td></td>
+            <td></td>
+            <td>Ежедневный отчет о проделанных работах</td>
+            <td>Ежедневный отчет о проделанных работах</td>
+        </tr>
+        <tr>
+            <td>Скидка 3% на материалы</td>
+            <td>Скидка 5% на материалы</td>
+            <td>Скидка 7% на материалы</td>
+            <td>Скидка 10% на материалы</td>
+        </tr>
+        <tr>
+            <td class="price-wrapper">
+                <p class="price-text">~1000 € за м²</p>
+            </td>
+            <td class="price-wrapper">
+                <p class="price-text">~1200 € за м²</p>
+            </td>
+            <td class="price-wrapper">
+                <p class="price-text">~1500 € за м²</p></td>
+            <td class="price-wrapper">
+                <p class="price-text">~1900 € за м²</p>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#" class="pricebutton basic">Выбрать тариф</a></td>
+            <td><a href="#" class="pricebutton pro">Выбрать тариф</a></td>
+            <td><a href="#" class="pricebutton gold">Выбрать тариф</a></td>
+            <td><a href="#" class="pricebutton platinum">Выбрать тариф</a></td>
+    </tr>
+    </tbody>
+</table> -->
+	
+
+<table class="resp-tab">
+
+    <tbody>
+        <tr>
+            <td class="basic">BASIC</td>
+            <td  class="pro">PRO</td >
+            <td  class="gold">GOLD</td >
+            <td  class="platinum">PLATINUM</td >
+        </tr>
+        <tr>
+            <td>До 75 м²</td>
+            <td>До 100 м²</td>
+            <td>До 150 м²</td>
+            <td>До 250 м² </td>
+            
+        </tr>
+        <tr class="gray-bg">
+            <td></td>
+            <td>Круглосуточная связь</td>
+            <td>Круглосуточная связь</td>
+            <td>Круглосуточная связь</td>
+        </tr>
+        <tr>
+            <td>Бригада из 3 человек</td>
+            <td>Бригада из 5 человек</td>
+            <td>Бригада из 7 человек</td>
+            <td>Бригада из 10 человек</td>
+        </tr>
+        <tr class="gray-bg">
+            <td></td>
+            <td></td>
+            <td>Ежедневный отчет о проделанных работах</td>
+            <td>Ежедневный отчет о проделанных работах</td>
+        </tr>
+        <tr>
+            <td>Скидка 3% на материалы</td>
+            <td>Скидка 5% на материалы</td>
+            <td>Скидка 7% на материалы</td>
+            <td>Скидка 10% на материалы</td>
+        </tr>
+        <tr>
+            <td class="price-wrapper">
+                <p class="price-text">~1000 € за м²</p>
+            </td>
+            <td class="price-wrapper">
+                <p class="price-text">~1200 € за м²</p>
+            </td>
+            <td class="price-wrapper">
+                <p class="price-text">~1500 € за м²</p></td>
+            <td class="price-wrapper">
+                <p class="price-text">~1900 € за м²</p>
+            </td>
+        </tr>
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <!-- <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">WORK</a></li>
+                <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                <li class="list-inline-item"><a href="#">BLOG</a></li>
+                <li class="list-inline-item"><a href="#">CONTACT</a></li>
+            </ul> -->
+            <p class="copyright">NIKOLAI</p>
+        </footer>
+    </div>
+</body>
+</html>
